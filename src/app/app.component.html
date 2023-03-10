@@ -1,0 +1,15 @@
+<div id="MainContainer" style="margin: 5px 10px;">
+
+
+<h1>{{title}}</h1>
+<h2 i18n>Welcom！</h2>
+<!-- <mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
+
+<nav style="font-size: large;">
+  <a style="padding-right: 10px;" routerLink="/heroes">Heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+  <!-- <a routerLink="/SignUpInfo">SignUpInfo</a> -->
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+</div>
